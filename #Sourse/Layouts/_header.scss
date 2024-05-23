@@ -8,6 +8,7 @@
 	padding: 31px 0;
 }
 .header__content {
+	// position: fixed;
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
@@ -255,7 +256,7 @@
 	}
 	.btn-mob {
 		display: block;
-		max-width: 140px;
+		max-width: 144px;
 	}
 }
 

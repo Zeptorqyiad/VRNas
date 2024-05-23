@@ -289,7 +289,7 @@
   }
   .btn-mob {
     display: block;
-    max-width: 140px;
+    max-width: 144px;
   }
 }
 :root {
@@ -327,6 +327,20 @@ body {
 
 body._lock {
   overflow: hidden;
+}
+
+:root {
+  --main-color-linear: linear-gradient(90deg, rgb(12, 186, 241), rgb(233, 92, 233) 100%);
+  --main-color-purple: rgb(202, 106, 235);
+  --main-color-blue: rgb(25, 181, 241);
+  --alerts-success: rgb(0, 197, 102);
+  --alerts-error: rgb(255, 71, 71);
+  --alerts-warning: rgb(250, 204, 21);
+  --grey-scale-black_100: rgb(24, 24, 27);
+  --grey-scale-black_50: rgb(37, 37, 50);
+  --grey-scale-grey_1: rgb(176, 176, 178);
+  --grey-scale-grey_2: rgb(209, 209, 209);
+  --grey-scale-white: rgb(255, 255, 255);
 }
 
 :root {
