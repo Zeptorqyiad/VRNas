@@ -377,6 +377,141 @@ body._lock {
   z-index: -1;
 }
 
+.banner__content {
+  height: 630px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.banner__start {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__block {
+  padding: 70px 0;
+}
+
+.block-text {
+  flex: 0 1 45%;
+}
+
+.block-text__title {
+  color: var(--grey-scale-white);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 83px;
+}
+
+.block-text__text {
+  margin: 12px 94px 0 0;
+  color: rgb(209, 209, 209);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.banner_btn {
+  position: relative;
+  color: var(--grey-scale-white);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 38px;
+  background: linear-gradient(90deg, rgb(12, 186, 241), rgb(233, 92, 233) 100%);
+  margin-top: 32px;
+  transition: all 0.3s ease 0s;
+}
+
+.banner_btn:hover {
+  z-index: -1;
+  filter: blur(20px);
+  background: linear-gradient(90deg, rgb(12, 186, 241), rgb(233, 92, 233) 100%);
+}
+
+.ls-info-png li:not(:first-child) {
+  margin-left: -12px;
+}
+
+.banner-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.block__banner-info {
+  gap: 1.25rem;
+}
+
+.banner-info__ls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.banner-info__ls ul {
+  display: flex;
+}
+
+.ls-value {
+  position: relative;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.ls-value:before {
+  content: "";
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: -5px;
+  height: 0.45rem;
+  background: url("../../assets/Banner/HappyLine.svg") no-repeat;
+}
+
+.ls-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #d1d1d1;
+}
+
+.banner__video {
+  max-width: 196px;
+  height: 130px;
+}
+
+.banner__image img {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  z-index: -2;
+}
+
+.banner__image {
+  position: relative;
+}
+
+.banner__image:before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(90deg, #19b5f1, #ca6aeb);
+  filter: blur(100px);
+  transform: translate(-55%, -60%) rotate(-40deg);
+  z-index: -1;
+}
+
 :root {
   --main-color-linear: linear-gradient(90deg, rgb(12, 186, 241), rgb(233, 92, 233) 100%);
   --main-color-purple: rgb(202, 106, 235);
