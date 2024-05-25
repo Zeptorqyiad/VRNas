@@ -1,10 +1,4 @@
-// $minwidth: 320px;
-// $md1: 992.98px;
-// $md2: 767.98px;
-// $md3: 479.98px;
 $ff1: Chakra Petch;
-// $ff2: PTSans;
-// $ff3: Roboto;
 
 :root {
 	--main-color-linear: linear-gradient(90deg, rgb(12, 186, 241), rgb(233, 92, 233) 100%);
@@ -21,10 +15,3 @@ $ff1: Chakra Petch;
 	--grey-scale-grey_2: rgb(209, 209, 209);
 	--grey-scale-white: rgb(255, 255, 255);
 }
-
-// Break-points
-
-//$pc: em($containerWidth); // ПК, ноутбуки, некоторые планшеты в горизонтальном положении
-// $tablet: em(991.98); // Планшеты, некоторые мобильные устройства в горизонтальном положении
-// $mobile: em(767.98); // Телефоны
-// $mobileSmall: em(479.98); // Маленькие телефоны
