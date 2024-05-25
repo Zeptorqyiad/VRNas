@@ -6,6 +6,14 @@
 	max-height: 114px;
 	max-width: 100%;
 	padding: 31px 0;
+	z-index: 2;
+}
+.header__background {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
 }
 .header__content {
 	// position: fixed;
@@ -130,6 +138,15 @@
 }
 
 @media (max-width: 890px) {
+	.header__burger-content {
+		position: absolute;
+		// z-index: 1;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		background: #25253267;
+	}
 	.spoiler__content-mob.push,
 	.spoiler__content-mob_2.push {
 		display: block;
@@ -190,7 +207,7 @@
 		text-decoration: none;
 		color: #d1d1d1;
 		font-weight: 300;
-		font-size: 18px;
+		font-size: 24px;
 		transition: all 0.3s ease 0s;
 	}
 	.menu__icon a:hover {
@@ -257,6 +274,9 @@
 	.btn-mob {
 		display: block;
 		max-width: 144px;
+	}
+	.btn-mob a {
+		font-size: 18px;
 	}
 }
 
