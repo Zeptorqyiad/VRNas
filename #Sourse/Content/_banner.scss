@@ -28,11 +28,13 @@
 .block-text {
 	flex: 0 1 45%;
 }
+.banner__title {
+	font-size: 64px;
+	line-height: 83px;
+}
 .block-text__title {
 	color: var(--grey-scale-white);
-	font-size: 64px;
 	font-weight: 600;
-	line-height: 83px;
 }
 .block-text__text {
 	margin: 12px 94px 0 0;

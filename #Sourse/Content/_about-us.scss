@@ -21,8 +21,6 @@
 	position: relative;
 	flex: 0 1 500px;
 }
-.about-us_image {
-}
 .about-us_image::before {
 	content: "";
 	position: absolute;
@@ -60,22 +58,8 @@
 	margin-top: 81px;
 	flex: 0 1 562px;
 }
-.about-us__header {
-	display: inline-block;
-	margin-bottom: 0.75rem;
-	font-size: 16px;
-	line-height: 21px;
-	font-weight: 500;
-	letter-spacing: 0.14em;
-	text-transform: uppercase;
-	background: linear-gradient(90deg, #19b5f1, #ca6aeb);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-}
 .about-us__title {
 	font-size: 48px;
-	font-weight: 600;
 	line-height: 58px;
 }
 .about-us__text {
@@ -101,4 +85,18 @@
 }
 .about-us-btn {
 	padding: 18px 38px;
+}
+
+.heading-text {
+	display: inline-block;
+	margin-bottom: 0.75rem;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, #19b5f1, #ca6aeb);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
 }

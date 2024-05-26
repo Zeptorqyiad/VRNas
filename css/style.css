@@ -403,11 +403,14 @@ video {
   flex: 0 1 45%;
 }
 
+.banner__title {
+  font-size: 64px;
+  line-height: 83px;
+}
+
 .block-text__title {
   color: var(--grey-scale-white);
-  font-size: 64px;
   font-weight: 600;
-  line-height: 83px;
 }
 
 .block-text__text {
@@ -680,23 +683,8 @@ video {
   flex: 0 1 562px;
 }
 
-.about-us__header {
-  display: inline-block;
-  margin-bottom: 0.75rem;
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  background: linear-gradient(90deg, #19b5f1, #ca6aeb);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 .about-us__title {
   font-size: 48px;
-  font-weight: 600;
   line-height: 58px;
 }
 
@@ -726,6 +714,34 @@ video {
 
 .about-us-btn {
   padding: 18px 38px;
+}
+
+.heading-text {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #19b5f1, #ca6aeb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+:root {
+  --main-color-linear: linear-gradient(90deg, rgb(12, 186, 241), rgb(233, 92, 233) 100%);
+  --main-color-purple: rgb(202, 106, 235);
+  --main-color-blue: rgb(25, 181, 241);
+  --alerts-success: rgb(0, 197, 102);
+  --alerts-error: rgb(255, 71, 71);
+  --alerts-warning: rgb(250, 204, 21);
+  --grey-scale-black_100: rgb(24, 24, 27);
+  --grey-scale-black_50: rgb(37, 37, 50);
+  --grey-scale-grey_1: rgb(176, 176, 178);
+  --grey-scale-grey_2: rgb(209, 209, 209);
+  --grey-scale-white: rgb(255, 255, 255);
 }
 
 :root {
